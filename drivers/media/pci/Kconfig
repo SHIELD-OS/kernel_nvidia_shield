@@ -36,6 +36,7 @@ endif
 if MEDIA_DIGITAL_TV_SUPPORT
 	comment "Media digital TV PCI Adapters"
 source "drivers/media/pci/ttpci/Kconfig"
+source "drivers/media/pci/ceton/Kconfig"
 source "drivers/media/pci/b2c2/Kconfig"
 source "drivers/media/pci/pluto2/Kconfig"
 source "drivers/media/pci/dm1105/Kconfig"

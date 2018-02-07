@@ -3,6 +3,7 @@
 #
 
 obj-y        +=	ttpci/		\
+                ceton/          \
 		b2c2/		\
 		pluto2/		\
 		dm1105/		\
@@ -14,6 +15,7 @@ obj-y        +=	ttpci/		\
 		saa7146/
 
 obj-$(CONFIG_VIDEO_IVTV) += ivtv/
+obj-$(CONFIG_VIDEO_CETON) += ceton/
 obj-$(CONFIG_VIDEO_ZORAN) += zoran/
 obj-$(CONFIG_VIDEO_CX18) += cx18/
 obj-$(CONFIG_VIDEO_CX23885) += cx23885/
